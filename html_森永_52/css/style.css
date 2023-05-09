@@ -1,0 +1,447 @@
+/* ここから下に記載していく */
+body{
+    /* background-color: aqua; */
+    padding-left: 5%;
+    padding-right: 5%;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 0px;
+    /* background-color: #ffd61a; */
+}
+
+main{
+    font-size: 16px;
+    /* background-color: black; */
+    /* max-width: 100%; */
+    /* margin-left: 10px;
+    margin-right: 10px; */
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    width /***/:auto;
+
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 60px 0;
+    font-size: 18px;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+footer{
+    background-color: #707070;
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.bunshou{
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+    /* background-color: aqua; */
+}
+
+.headline0{
+    /* background-color: #ffd61a; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.headline1{
+    font-size: 100px;
+    /* font-style: ; */
+    font-family: 'EB Garamond', serif;
+    /* background-color: red; */
+    margin-right: 20px;
+}
+
+.headline2{
+    /* max-width: 20%; */
+    font-size: 25px;
+    /* background-color: bisque; */
+}
+
+.headline3{
+    /* /* box-sizing: border-box; */
+    /* max-width: 70%; */
+    display: flex;
+    justify-content: flex-end;
+    font-size: 21px;
+    /* background-color: bisque; */
+    margin-right: 0%;
+    text-align: right;
+    margin: 0%;
+    /* margin-right: -1rem; */
+}
+
+.headline4{
+    /* max-width: 20%; */
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.headline{
+    margin: 50px 50px 50px 50px;
+    box-sizing: border-box;
+    max-width: 20%;
+    /* background-color: red; */
+}
+
+.topic{
+    margin-bottom: 60px;
+    margin-top: 60px;
+    /* background-color: aqua; */
+    
+}
+
+.daimei{
+    font-size: 24px;
+    color: #ffd61a;
+    margin: 0 0 30px 0;
+    font-weight: bold;
+}
+
+.daimei2{
+    font-size: 24px;
+    /* margin: 60px 0 30px 0; */
+    font-weight: bold;
+    color: #ffd61a;
+
+}
+
+.zentai{
+    /* max-width: 100%; */
+    display: flex;
+    justify-content: center;
+    /* margin: 0px; */
+    /* background-color: blue; */
+}
+
+.zentaiimg{
+    box-sizing: border-box;
+    width: 25%;   
+}
+
+.zentai_re{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    /* background-color: blue */
+    
+}
+
+.course{
+    /* background-color:red; */
+    box-sizing: border-box;
+    width: 50%;
+    /* padding: 10% 300px 10% 50px; */
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 50px;
+}
+
+.course_re{
+    /* background-color:red; */
+    box-sizing: border-box;
+    width: 50%;
+    /* padding: 10% 50px 10% 200px; */
+    display: flex;
+    align-items: flex-end;
+    padding-right: 50px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 160px;
+    height: auto;
+}
+
+.title_re{
+    /* display: flex;
+    justify-content: flex-end; */
+    width: fit-content;
+    /* margin: 0 0 0 auto; */
+    /* background-color: #ffd61a; */
+}
+
+.courseimg{
+    width: 50%;
+}
+
+.coursetext{
+    /* background-color: #ffd61a; */
+    /* display: block; */
+    width:fit-content
+    /* display: flex; */
+    /* justify-content:flex-start; */
+
+}
+
+.coursetext_re{
+    /* background-color: #ffd61a; */
+    /* display: block; */
+    width:fit-content
+    /* display: flex; */
+    /* justify-content:flex-end; */
+    
+}
+
+.news_img{
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.news_img2{
+    margin-left: 30px;
+    margin-right: 30px;
+    /* background-color: aqua; */
+}
+
+.news_img3{
+    width: 100%;
+}
+
+.date{
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+
+.button1{
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.button2{
+    width: 300px;
+    height: 60px;
+    margin: 60px 0 60px 0;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffd61a;
+    color: #ffffff;
+}
+
+.acinfo{
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 15%;
+    display: flex;
+    /* justify-content: center; */
+    margin-bottom: 30px;
+    /* background-color: #ffd61a; */
+}
+
+.acinfo2{
+    text-align: left;
+    width: 20%;
+    margin-right: 50px;
+    /* background-color: aqua; */
+
+}
+
+.form{
+    /* background-color: aquamarine; */
+    /* display: flex;
+    align-items: center; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 640px
+}
+
+.form1{
+    display: flex;
+    justify-content: center;
+    /* background-color: rebeccapurple; */
+    /* padding-top: 8px;
+    padding-bottom: 8px; */
+    box-sizing: border-box;
+    width: 640px;
+    border-style: solid none ;
+    border-width: thin;
+}
+
+.form2{
+    /* background-color: #ffd61a; */
+    box-sizing: border-box;
+    width: 240px;
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+    border-style: none solid none none;
+    border-width: thin;
+   /* padding-top: 10%;
+   padding-bottom: 10%; */
+}
+
+.form3{
+    /* background-color: aqua; */
+    margin-left: 0px;
+    padding-left: 8px;
+    box-sizing: border-box;
+    width: 400px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.form4{
+ width: 328px;
+ height: 36px;   
+}
+
+.form5{
+    /* background-color: bisque; */
+}
+
+.form6{
+    /* background-color:red; */
+    margin-bottom: 24px;
+
+}
+
+#youseigakkou{
+    margin-bottom: 30px;
+}
+
+#jikyuu{
+    margin-bottom: 40px;
+}
+
+#omoi{
+    margin-bottom: 40px;
+}
+
+#sotsugyo{
+    margin-bottom: 80px;
+}
+
+#course_re{
+    /* background-color: aqua; */
+    height: auto;
+    width: fit-content;
+    margin: 0 0 0 auto;
+}
+
+#access{
+    /* background-color: grey; */
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+    /* background-color: grey; */
+  }
+
+#access{
+    background-color:#fafafa;
+    padding-bottom: 60px;
+    /* margin-left: 15%;
+    margin-right: 15%; */
+}
+
+#access2{
+    /* background-color: #ffd61a; */
+    margin-top: 60px;
+  }
+
+#test{
+    /* background-color: red; */
+    padding-top: 0%;
+}
+
+#contact{
+    /* background-color: red; */
+    margin-top: 60px;
+    margin-bottom: 70px;
+    /* display: flex;
+    align-items: center; */
+
+}
+
+#contact2{
+    /* background-color: #ffd61a; */
+    margin-bottom: 30px;
+
+
+}
+
+#contact3{
+    margin-bottom: 60px;
+}
+
+#zehi{
+    margin-bottom: 30px;
+}
+
+#tizu{
+    margin-bottom: 70px;
+}
+
+#form22{
+    /* background-color: #ffd61a; */
+    box-sizing: border-box;
+    width: 240px;
+    padding-left: 16px;
+    /* display: flex;
+    align-items: center; */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    border-style: none solid none none;
+    border-width: thin;
+    padding-top: auto;
+    padding-bottom: auto;
+    /* height: 60px; */
+}
+
+#form33{
+    /* background-color: aqua; */
+    margin-left: 0px;
+    padding-left: 8px;
+    box-sizing: border-box;
+    width: 400px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+}
+
+#form44{
+    width: 328px;
+    height: 72px;   
+   }
+
+#soushin{
+    margin-top: 30px;
+    margin-bottom: 140px;
+}
+
+#foot{
+    text-align: center;
+}
+
+#rediv{
+    /* background-color: #707070; */
+    width:fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
